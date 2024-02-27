@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test1.css">
+    <title>芝士标题</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+    
+        h1 {
+            font-size: 300%;
+            text-align: center;
+        }
+    
+        p {
+            color: red;
+        }
+    
+        div {
+            background-image: url('house.png');
+        }
+    </style>
+    </head>
+<body>
+    <div>测试1</div>
+    <h1 style="background:rgb(229, 9, 196)"><font color="white">原神</font></h1>
+    <p><strong>你说的对，但《原神》是一款。。。。。。</strong>
+        <br/>前面忘了 </p>
+    <p id="1" title="joke" style="text-align:center">中间忘了</p>
+    <p id="2" style="text-align: right;">后面忘了 </p>
+    <hr/>
+    <p style="border: 2px solid red;margin: 20px;""><strong>你说得对，但是《原神》是由米哈游自主研发的一款全新开放世界冒险游戏。游戏发生在一个被称作“提瓦特”的幻想世界，在这里，被神选中的人将被授予“神之眼”，导引元素之力。你将扮演一位名为“旅行者”的神秘角色，在自由的旅行中邂逅性格各异、能力独特的同伴们，和他们一起击败强敌，找回失散的亲人——同时，逐步发掘“原神”的真相</strong></p>
+    <a href="https://ys.mihoyo.com/" title="跳转至原神官网">芝士一款开放世界游戏</a>
+
+    <a href="https://ys.mihoyo.com/" >
+        <img src="genshin.png" alt="原神壁纸" title="给你一点小小的原神震撼" width = "512">
+    </a>
+    <hr/>
+    <div>测试2</div>
+    <h1>芝士角色表</h1>
+    <table style="width:100%; border: 2px solid black;padding:40px;background-image: url('house.png')">
+        <tr>
+            <th>角色名</th>
+            <th>元素</th>
+            <th>星级</th>
+        </tr>
+        <tr>
+            <td>钟离</td>
+            <td>岩</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>刻晴</td>
+            <td>雷</td>
+            <td>5</td>
+        </tr>
+    </table>
+    <hr/>
+<table style="width:100%; border: spacing 5px;">
+    <tr>
+        <th>Name</th>
+        <th colspan="2">Telephone</th>
+    </tr>
+    <tr>
+        <td>Bill Gates</td>
+        <td>55577854</td>
+        <td>55577855</td>
+    </tr>
+</table>
+<hr/>
+<table style="width:100%">
+    <tr>
+        <th>Name:</th>
+        <td>Bill Gates</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Telephone:</th>
+        <td>55577854</td>
+    </tr>
+    <tr>
+        <td>55577855</td>
+    </tr>
+</table>
+<table style="width:100%">
+    <caption>Monthly savings</caption>
+    <tr>
+        <th>Month</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>January</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td>February</td>
+        <td>$50</td>
+    </tr>
+</table>
+<hr/>
+<table id="t01">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+</table>
+<form>
+    <label for="cname">Character name :</label><br>
+    <input type="text" id="cname" name="cname"><br>
+    <label for="level">Level :</label><br>
+    <input type="text" id="level" name="level">
+</form>
+<hr/>
+<div>测试3</div>
+<button onclick="document.location='https://ys.mihoyo.com/'">点击有惊喜</button>
+<div><a href="mailto:tousu@mihoyo.com">发送邮件投诉</a></div>
+<img src="coastgirl.png" alt="小女孩" title="没有title" style="float:right;width:256px;height:256px;">
+<div>测试4</div>
+<h2>你的豌豆是什么性状</h2>
+<form>
+    <input type="radio" id="y" name="gender" value="y">
+    <label for="y">圆皮</label><br>
+    <input type="radio" id="z" name="gender" value="z">
+    <label for="z">皱皮</label><br>
+    <input type="radio" id="n" name="gender" value="n">
+    <label for="n">我去，农</label>
+</form>
+<form>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Op">
+    <label for="vehicle1"> I have a 钟离</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Snowneopord">
+    <label for="vehicle2"> I have a 雪豹</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Ctrl">
+    <label for="vehicle3"> I have a CTRL</label>
+</form>
+<hr/>
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="昊"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="京"><br><br>
+    <input type="submit" value="Submit">
+</form>
+<hr/>
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" value="昊京"><br><br>
+    <input type="submit" value="你好">
+</form>
+
+<label for="legends">Choose a Legend:</label>
+<select id="legends" name="legends">
+    <option value="wolf">昊京</option>
+    <option value="chicken">坤坤</option>
+    <option value="diana">嘉然</option>
+    <option value="degree" selected>钝角</option>
+</select>
+
+<label for="legends">Choose a Legend:</label>
+<select id="legends" name="legends" size="4">
+    <option value="wolf">昊京</option>
+    <option value="chicken">坤坤</option>
+    <option value="diana">嘉然</option>
+    <option value="egree">钝角</option>
+</select>
+
+<label for="legends">Choose a Legend:</label>
+<select id="legends" name="legends" size="4" multiple>
+    <option value="wolf">昊京</option>
+    <option value="chicken">坤坤</option>
+    <option value="diana">嘉然</option>
+    <option value="egree">钝角</option>
+</select>
+
+<hr/>
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+<textarea name="message" style="width:200px;height:600px;">
+The cat was playing in the garden.
+</textarea>
+
+<hr/>
+<div>测试5</div>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+<form action="/action_page.php">
+    <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="点击提交">
+    </fieldset>
+</form>
+<form action="/action_page.php">
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+</form>
+<form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    0
+    <input type="range" id="a" name="a" value="50">
+    100 +
+    <input type="number" id="b" name="b" value="50">
+    =
+    <output name="x" for="a b"></output>
+    <br><br>
+    <input type="submit">
+</form><hr/>
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+<hr/>
+
+<form>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="pwd">
+</form><hr/>
+
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset">
+</form>
+
+<form>
+    <label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor">
+</form><hr/>
+
+<form>
+    <label for="quantity">Quantity (between 1 and 5):</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+</form><hr/>
+
+<form>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
+</form><hr/>
+
+<form>
+<label for="datemax">Enter a date before 1980-01-01:</label>
+<input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+<label for="datemin">Enter a date after 2000-01-01:</label>
+<input type="date" id="datemin" name="datemin" min="2000-01-02">
+</form><hr/>
+
+<form>
+    <label for="birthdaytime">Birthday (date and time):</label>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+</form><hr/>
+
+<form>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email">
+</form><hr/>
+
+<form>
+    <label for="myfile">Select a file:</label>
+    <input type="file" id="myfile" name="myfile">
+</form><hr/>
+
+
+<form>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <input type="hidden" id="custId" name="custId" value="3487">
+    <input type="submit" value="Submit">
+</form><hr/>
+
+<form>
+    <label for="bdaymonth">Birthday (month and year):</label>
+    <input type="month" id="bdaymonth" name="bdaymonth">
+</form><hr/>
+
+<form>
+    <label for="vol">Volume (between 0 and 50):</label>
+    <input type="range" id="vol" name="vol" min="0" max="50">
+</form><hr/>
+
+<form>
+    <label for="gsearch">Search Google:</label>
+    <input type="search" id="gsearch" name="gsearch">
+</form><hr/>
+
+<form>
+    <label for="phone">Enter your phone number:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+</form><hr/>
+
+<form>
+    <label for="appt">Select a time:</label>
+    <input type="time" id="appt" name="appt">
+</form><hr/>
+
+<form>
+    <label for="homepage">Add your homepage:</label>
+    <input type="url" id="homepage" name="homepage">
+</form><hr/>
+
+<form>
+    <label for="week">Select a week:</label>
+    <input type="week" id="week" name="week">
+</form><hr/>
+
+
+
+
+    <script>
+        芝士注释
+        芝士注释
+        芝士注释
+    </script>
+</body>
+</html>

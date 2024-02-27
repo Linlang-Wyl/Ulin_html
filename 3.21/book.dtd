@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8”?>
+<!ELEMENT library (articles+)>
+<!ELEMENT articles (dc:title, dc:creator, dc:publisher, dc:date, dc:description?, dc:format?, dc:language?, dc:identifier?, dc:subject?, dc:type?, dc:rights?)>
+
+<!ELEMENT dc:title (#PCDATA)>
+<!ELEMENT dc:creator (#PCDATA)>
+<!ELEMENT dc:publisher (#PCDATA)>
+<!ELEMENT dc:date (#PCDATA)>
+<!ELEMENT dc:description (#PCDATA)>
+<!ELEMENT dc:format (#PCDATA)>
+<!ELEMENT dc:language (#PCDATA)>
+<!ELEMENT dc:identifier (#PCDATA)>
+<!ELEMENT dc:subject (#PCDATA)>
+<!ELEMENT dc:type (#PCDATA)>
+<!ELEMENT dc:rights (#PCDATA)>
+<!ELEMENT dc:rights (#PCDATA)>
+<!ATTLIST articles id ID #IMPLIED>
